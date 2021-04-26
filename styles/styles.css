@@ -1,0 +1,72 @@
+/* Color Palette
+RGB Hex	RGB Hex3	HSL	RGB	HTML Keyword
+#2d0000	#300	hsl(0,100%,8%)	rgb(45,0,0)	black
+#00b6c9	#0bd	hsl(185,100%,39%)	rgb(0,182,201)	darkturquoise
+#d80056	#e05	hsl(336,100%,42%)	rgb(216,0,86)	crimson
+#f9d143	#fd4	hsl(46,93%,61%)	rgb(249,209,67)	sandybrown
+#ffffff	#fff	hsl(0,0%,100%)	rgb(255,255,255)	white
+
+*/
+
+body {
+    background-color: #2d0000;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.navbar {
+    padding: .5rem;
+    margin: 0, .5rem;
+    border-bottom: .1rem solid #00b6c9;
+    display: flex;
+	flex-direction: row;
+    justify-content: space-between;        
+    align-items: center;
+}
+
+#logo {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.logo-dots {
+    max-height: 2rem;
+    padding: .1rem;
+    flex-shrink: 1;
+}
+
+#menu {
+    display:flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.menu-link {
+   margin: .25rem;
+   border-radius: 25%;
+   border: 0;
+   background-color: #2d0000;
+   color: #00b6c9;
+   font-size: 16px;
+   font-family: 'Poiret One', cursive;
+   font-weight: 800;
+   text-decoration: none;
+   flex-shrink: 1;
+   padding: .25rem
+}
+
+.menu-link:hover {
+    color: #f9d143; 
+ }
+
+/* #work-link:hover, #work-link:active {
+    
+} */
+/* 
+li {
+    visibility: hidden;
+}
+
+li:hover {
+    visibility: visible;
+} */
