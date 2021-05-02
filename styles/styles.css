@@ -45,6 +45,10 @@ body {
     flex-shrink: 1;
 }
 
+#logo {
+    max-width: 20%;
+}
+
 nav {
     display:flex;
 	flex-direction: row;
