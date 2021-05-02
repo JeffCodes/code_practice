@@ -8,6 +8,16 @@ RGB Hex	RGB Hex3	HSL	RGB	HTML Keyword
 
 */
 
+* {
+    box-sizing: border-box;
+  }
+
+.header {
+    background-color: #2d0000;
+    padding: 2rem;
+    height: 50%;
+}
+
 body {
     background-color: #2d0000;
     margin-left: 0;
@@ -35,13 +45,13 @@ body {
     flex-shrink: 1;
 }
 
-#menu {
+nav {
     display:flex;
 	flex-direction: row;
     flex-wrap: wrap;
 }
 
-.menu-link {
+.nav-link {
    margin: .25rem;
    border-radius: 25%;
    border: 0;
@@ -55,7 +65,7 @@ body {
    padding: .25rem
 }
 
-.menu-link:hover {
+.nav-link:hover {
     color: #f9d143; 
  }
 
