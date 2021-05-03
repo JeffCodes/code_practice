@@ -1,0 +1,36 @@
+/* natural element */
+
+NAV {
+    display: flex;
+    background-color: cornflowerblue;
+}
+
+h1 {
+    color: cornsilk;
+    flex-grow: 2;
+    text-align: center;
+    font-size: 5rem;
+    margin: 0rem;
+}
+
+#navButtons {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    margin: .5rem;
+    padding: .25rem;
+    border-radius: 50%;
+    width: 4rem;
+    color: navy;
+    background-color: tan;
+    border:none;
+    filter: drop-shadow(2px 2px 2px black);
+}
+
+
+button:hover {
+    color: black;
+    background-color: red;
+}
