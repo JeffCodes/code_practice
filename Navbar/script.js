@@ -1,6 +1,6 @@
-const navLinks = document.getElementById('navLinks');
 const menuIcon = document.getElementById('icon');
+const nav = document.getElementById('nav');
 
 menuIcon.addEventListener('click', () => {
-    navLinks.classList.toggle('openNav');
+    nav.classList.toggle('openNav');
 })
