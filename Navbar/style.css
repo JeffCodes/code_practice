@@ -1,16 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* 
+    Portfolio colors:  
+    reddish background color: #2E0000;
+    cyan: #01b6c9;
+    magenta: #d80056;
+    yellow: #f9d143;
+    fourth color is plain white (#fff)
+*/
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); */
+
+:root {
+    --bg-red-brown: #2E0000;
+    --cyan: #01b6c9;
+    --magenta: #d80056;
+    --yellow: #f9d143;
+}
 
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    overflow: hidden;
+    /* font-family: 'Roboto', sans-serif; */
     margin: 0;
 }
