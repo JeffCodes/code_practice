@@ -7,7 +7,7 @@
     fourth color is plain white (#fff)
 */
 
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
     --bg-red-brown: #2E0000;
@@ -21,6 +21,19 @@
 }
 
 body {
-    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+nav {
+    background-color: var(--bg-red-brown);
+    color: #fff;
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
     margin: 0;
 }
