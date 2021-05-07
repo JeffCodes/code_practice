@@ -5,26 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="style.css">
     <title>Carla's Design Site</title>
 </head>
 
 <body>
-    <nav id="nav">
-        <ul>
-            <li>Home</li>
-            <li>Contact</li>
-            <li>Work
-                <!-- <ul>
-                    <li>Illustration</li>
-                    <li>Design</li>
-                    <li>Animation</li>
-                    <li>Fine Art</li>
-                </ul> -->
-            </li>
+    <nav id="nav" class="nav">
+        <a href="#" class="active" id="logo">Logo Here</a>
+        <div id="navLinks">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Work</a>
+                    <ul id="work-submenu">
+                        <li><a href="#">Illustration</a></li>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#">Animation</a></li>
+                        <li><a href="#">Fine Art</a></li>
+                    </ul>
+                </li>
 
-        </ul>
+            </ul>
+        </div>
+        <button class="menu-icon" id="icon">
+            <i class="fas fa-bars"></i>
+        </button>
     </nav>
     <h1>Carla's Design Site</h1>
     <script src="script.js"></script>
