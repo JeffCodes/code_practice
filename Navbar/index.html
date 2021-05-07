@@ -11,25 +11,27 @@
 </head>
 
 <body>
-    <nav id="nav" class="nav">
-        <a href="#" class="active" id="logo">Logo Here</a>
-        <a href="#" class="links">Home</a>
-        <a href="#" class="links">Contact</a>
-        <div class="dropdown-menu">
-            <button class="menu-btn">Work</button>
-            <div class="menu-content">
-                <a href="#" class="links-hidden">Illustration</a></li>
-                <a href="#" class="links-hidden">Design</a></li>
-                <a href="#" class="links-hidden">Animation</a></li>
-                <a href="#" class="links-hidden">Fine Art</a></li>
-            </div>
-        </div>
 
-        <button class="menu-icon" id="icon">
-            <i class="fas fa-bars"></i>
-        </button>
+
+    <nav>
+        <ul class="menu">
+            <li class="logo"><a href="#">Carla's Design Agency</a></li>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">Contact</a></li>
+            <li class="item has-submenu">
+                <a tabindex="0">Work</a>
+                <ul class="submenu">
+                    <li class="subitem"><a href="#">Illustration</a></li>
+                    <li class="subitem"><a href="#">Design</a></li>
+                    <li class="subitem"><a href="#">Animation</a></li>
+                    <li class="subitem"><a href="#">Fine Art</a></li>
+                </ul>
+            </li>
+
+            <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+        </ul>
     </nav>
-    <h1>Carla's Design Site</h1>
+
     <script src="script.js"></script>
 </body>
 
