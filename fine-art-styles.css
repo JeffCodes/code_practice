@@ -1,0 +1,19 @@
+h3{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(0, 174, 255);
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
+#SetOfPhotos {
+display: flex;
+flex-flow: column wrap;
+align-content: center;
+} 
+
+nav { 
+    display: flex;
+    justify-content: space-evenly;
+}
